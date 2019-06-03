@@ -1,0 +1,203 @@
+﻿<Window x:Class="SLPProgram.NewStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SLPProgram"
+        mc:Ignorable="d"
+        Title="Add A New Student" Height="700" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+    <Grid Background="LightBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+
+
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="txtFirstName" Grid.Row="0" Height="30" Margin="15 5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Label Grid.Row="1" Content="Student First Name" HorizontalContentAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="txtLastName" Grid.Row="0" Height="30" Margin="15 5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Label Grid.Row="1" Content="Student Last Name" HorizontalContentAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <ComboBox x:Name="cbxGrade" Grid.Row="0" Height="30" Margin="15 3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                    <Label Grid.Row="1" Content="Student Grade" HorizontalContentAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="txtAddress"  Grid.Row="0" Height="30" Margin="15 5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Label Grid.Row="1" Content="Student Address" HorizontalContentAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="txtCity"  Grid.Row="0" Height="30" Margin="15 5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Label Grid.Row="1" Content="City" HorizontalContentAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <ComboBox x:Name="cbxState" Grid.Row="0" Height="30" Margin="15 3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Label Grid.Row="1" Content="State" HorizontalContentAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="6">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="txtZipcode"  Grid.Row="0" Height="30" Margin="15 5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                    <Label Grid.Row="1" Content="Zip Code" HorizontalContentAlignment="Center"/>
+                </Grid>
+
+
+            </Grid>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <DatePicker x:Name="dateBirthday" Grid.Row="0" Height="30" Margin="15 5" IsTodayHighlighted="False"/>
+                    <Label Grid.Row="1" Content="Student Date of Birth" HorizontalContentAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <ComboBox x:Name="cbxSchool" Grid.Row="0" Height="30" Margin="15 5"  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Label Grid.Row="1" Content="School Name" HorizontalContentAlignment="Center"/>
+                </Grid>
+
+
+                <Grid Grid.Row="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="txtFirstNameLeader" Grid.Row="0" Height="30" Margin="15 5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                    <Label Grid.Row="1" Content="IEP Leader First Name" HorizontalContentAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="45"></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBox x:Name="txtLastNameLeader"  Grid.Row="0" Height="30" Margin="15 5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                    <Label Grid.Row="1" Content="IEP Leader Last Name" HorizontalContentAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="4">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition ></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <DatePicker x:Name="dateIEPDate" Grid.Row="0" Height="30" Margin="15 5"/>
+                    <Label Grid.Row="1" Content="IEP Date" HorizontalContentAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <ComboBox x:Name="cbxIEPGoal" Grid.Row="0" Height="30" Margin="15 3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Label Grid.Row="1" Content="IEP Goal" HorizontalContentAlignment="Center" />
+                </Grid>
+                <Grid Grid.Row="6">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition ></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <ComboBox x:Name="cbxIEPType" Grid.Row="0" Height="30" Margin="15 3" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                    <Label Grid.Row="1" Content="IEP Type" HorizontalContentAlignment="Center"/>
+                </Grid>
+                <Grid Grid.Row="7">
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition ></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <CheckBox x:Name="chbkActive" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="True"/>
+                    <Label Grid.Row="3" Content="Student Active" HorizontalContentAlignment="Center" VerticalAlignment="Top"/>
+                </Grid>
+
+
+            </Grid>
+            <Grid Grid.Column="2">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="530"></RowDefinition>
+                    <RowDefinition Height="25"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                <TextBox x:Name="txtNotes" Grid.Row="0" Margin="10" TextWrapping="Wrap"/>
+                <Label Grid.Row="1" Content="IEP Notes" HorizontalContentAlignment="Center"/>
+                
+                
+            </Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="btnSubmit" Grid.Column="2" Content="Submit" Margin="10" Click="btnSubmit_Click" />
+            <Button x:Name="btnCancel" Grid.Column="5" Margin="10" Content="Cancel" Click="BtnCancel_Click"/>
+            <Button x:Name="btnPrimary" Grid.Column="4" Content="Primary" Margin="10" Click="BtnPrimary_Click" />
+            <Button x:Name="btnSecondary" Grid.Column="3" Content="Secondary" Margin="10" Click="BtnSecondary_Click"/>
+            
+        </Grid>
+    </Grid>
+</Window>

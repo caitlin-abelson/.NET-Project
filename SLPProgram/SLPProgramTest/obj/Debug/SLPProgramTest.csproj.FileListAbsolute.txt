@@ -1,0 +1,152 @@
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.pdb
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csprojAssemblyReference.cache
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CoreCompileInputs.cache
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CopyComplete
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.pdb
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.dll
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.pdb
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.dll
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.dll
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.dll
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.pdb
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.dll.config
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.pdb
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.dll.config
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.pdb
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.dll.config
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csprojAssemblyReference.cache
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CoreCompileInputs.cache
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CopyComplete
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.dll
+C:\Users\rocke\School\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.pdb
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.pdb
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.pdb
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.dll.config
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.pdb
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.dll.config
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.pdb
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.dll.config
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csprojAssemblyReference.cache
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CoreCompileInputs.cache
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CopyComplete
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.dll
+F:\Spring-2019\Net III\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.pdb
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.dll
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.pdb
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.dll
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.dll
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.dll
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.pdb
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.dll.config
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.pdb
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.dll.config
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.pdb
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.dll.config
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csprojAssemblyReference.cache
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CoreCompileInputs.cache
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CopyComplete
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.dll
+C:\Users\rocke\Desktop\SLPProgram\SLPProgram_Backup1\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.pdb
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.dll
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.pdb
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.dll
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.dll
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.dll
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.pdb
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.dll.config
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.pdb
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.dll.config
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.pdb
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.dll.config
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csprojAssemblyReference.cache
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CoreCompileInputs.cache
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CopyComplete
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.dll
+C:\Users\danie\Desktop\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.pdb
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csprojAssemblyReference.cache
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CoreCompileInputs.cache
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.dll
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.pdb
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.dll
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.pdb
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.dll
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.dll
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.dll
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.pdb
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.dll.config
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.pdb
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.dll.config
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.pdb
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.dll.config
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\School\Spring-2019\SLPProgram\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CopyComplete
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.dll
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\SLPProgramTest.pdb
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.dll
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.dll
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.dll
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.pdb
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\DataAccess.dll.config
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.pdb
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\DataObjects.dll.config
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.pdb
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\LogicLayer.dll.config
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csprojAssemblyReference.cache
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CoreCompileInputs.cache
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.csproj.CopyComplete
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.dll
+D:\School\Net III Final Project\SLPProgram\SLPProgramTest\obj\Debug\SLPProgramTest.pdb

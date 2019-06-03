@@ -1,0 +1,38 @@
+x	studentID length < 1
+x	studentID length > 50
+x	studentID ""
+x	birthday in the future
+x	birthday today
+x	ncesID length < 1
+x	ncesID length > 50
+x	ncesID ""
+x	studentFirstName length < 1
+x	studentFirstName length > 50
+x	studentFirstName ""
+x	studentFirstName contains nums
+x	studentLastName length < 1
+x	studentLastName length > 100
+x	studentLastName ""
+x	studentLastName contains nums
+x	address length < 1
+x	address length > 30
+x	address ""
+x	city length < 1
+x	city length > 30
+x	city ""
+x	zipcode length < 4
+x	zipcode length > 7
+x	zipcode contains letter
+x	iepDate in past
+x	iepDate is today
+x	iepType is null
+	goalType is null
+x	IEPLeaderFirstName length < 1
+x	IEPLeaderFirstName length > 50 
+x	IEPLeaderFirstName ""
+x	IEPLeaderFirstName contains nums
+x	IEPLeaderLastName length < 1
+x	IEPLeaderLastName length > 100 
+x	IEPLeaderLastName ""
+x	IEPLeaderLastName contains nums
+x	IEPNotes length > 4000

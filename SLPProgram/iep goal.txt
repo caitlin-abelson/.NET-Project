@@ -1,0 +1,103 @@
+print '' print ' ***Create IEP Goals Table'
+GO
+CREATE TABLE [dbo].[IEPGoals] (
+	[IEPID]			[int]				NOT NULL,
+	[GoalType]		[nvarchar](50)		NOT NULL,
+	
+	CONSTRAINT [pk_IEPID_GoalType] PRIMARY KEY ([IEPID] ASC, [GoalType] ASC)
+)
+GO
+
+print '' print '*** Inseting into IEPGoals'
+GO
+INSERT INTO [dbo].[IEPGoals]
+		([IEPID], [GoalType])
+	VALUES
+		(100000,'Articulation'),
+		(100001,'Phonology'),
+		(100002, 'Fluency'),
+		(100003, 'Intelligibility'),
+		(100004, 'MLU'),
+		(100005, 'Vocabulary')
+GO
+
+
+print '' print '*** Adding foreign key GoalType for IEPGoals'
+ALTER TABLE [dbo].[IEPGoals] WITH NOCHECK 
+	ADD CONSTRAINT [fk_GoalType] FOREIGN KEY([GoalType])
+	REFERENCES [dbo].[GoalType]([GoalType])
+	ON UPDATE CASCADE
+GO
+
+
+print '' print '*** Adding Foreign Key IEPType for IEP'
+GO
+ALTER TABLE [dbo].[IEP] WITH NOCHECK
+	ADD CONSTRAINT [fk_IEPType] FOREIGN KEY([IEPType])
+	REFERENCES [dbo].[IEPType]([IEPType])
+	ON UPDATE CASCADE
+GO
+	
+	
+	
+print '' print '*** Adding foreign key IEPID for IEPGoals'
+ALTER TABLE [dbo].[IEPGoals] WITH NOCHECK 
+	ADD CONSTRAINT [fk_IEPID] FOREIGN KEY([IEPID])
+	REFERENCES [dbo].[IEP]([IEPID])
+	ON UPDATE CASCADE
+GO
+
+
+print '' print '*** Creating sp_retrieve_student_info_by_slpid'
+GO
+CREATE PROCEDURE [dbo].[sp_retrieve_student_info_by_slpid]
+	(
+		@SLPID			[int]
+	)
+AS
+	BEGIN
+		SELECT	[Student].[StudentID], [School].[Name], [Student].[NCESID], [Student].[Birthday], [Student].[Grade], [Student].[FirstName], [Student].[LastName], [IEP].[IEPType], [IEP].[IEPDate], [IEP].[IEPLeaderFirstName], [IEP].[IEPLeaderLastName], [IEP].[IEPNotes], [Student].[Address], [Student].[City], [Student].[State], [Student].[ZipCode], [Student].[Active], [GoalType].[GoalType]
+		FROM	[School] INNER JOIN [Student] ON [School].[NCESID] = [Student].[NCESID]
+				INNER JOIN [Grade] ON [Student].[Grade] = [Grade].[Grade]
+				INNER JOIN [IEP] ON [Student].[StudentID] = [IEP].[StudentID]
+				INNER JOIN [SLP] ON [IEP].[SLPID] = [SLP].[SLPID]	
+				INNER JOIN [IEPGoals] ON [IEPGoals].[IEPID] = [IEP].[IEPID]
+				INNER JOIN [GoalType] ON [IEPGoals].[GoalType] = [GoalType].[GoalType]
+		WHERE	[IEP].[SLPID] = @SLPID
+	END
+GO
+
+
+print '' print '*** Create sp_retrieve_iep_by_studentid'
+GO
+CREATE PROCEDURE [dbo].[sp_retrieve_iep_by_studentid]
+AS
+	BEGIN
+		SELECT [Student].[StudentID], [Student].[FirstName], [Student].[LastName], [Student].[Birthday], [Student].[Grade], [School].[Name], [IEP].[IEPType], [IEP].[IEPDate], [IEP].[IEPLeaderFirstName], [IEP].[IEPLeaderLastName], [IEP].[IEPNotes]
+		FROM	[School] 
+				LEFT JOIN [Student] ON [School].[NCESID] = [Student].[NCESID]
+				LEFT JOIN [IEP] ON [Student].[StudentID] = [IEP].[StudentID]
+				LEFT JOIN [IEPGoals] ON [IEPGoals].[IEPID] = [IEP].[IEPID]
+	END
+GO
+
+
+
+print '' print '*** Creating sp_retrieve_student_by_slpid'
+GO
+CREATE PROCEDURE [dbo].[sp_retrieve_student_by_slpid]
+	(
+		@SLPID			[int]
+	)
+AS
+	BEGIN
+		SELECT	[Student].[StudentID], [Student].[FirstName], [Student].[LastName], [School].[Name], [Student].[NCESID], [Student].[Birthday], [Student].[Grade], [Student].[Address], [Student].[City], [Student].[State], [Student].[ZipCode], [Student].[Active]
+		FROM	[School] INNER JOIN [Student] ON [School].[NCESID] = [Student].[NCESID]
+				INNER JOIN [IEP] ON [Student].[StudentID] = [IEP].[StudentID]
+				INNER JOIN [SLP] ON [IEP].[SLPID] = [SLP].[SLPID]
+		WHERE	[IEP].[SLPID] = @SLPID
+	END
+GO
+
+
+

@@ -1,0 +1,132 @@
+print '' print '*** Creating sp_authenticate_user'
+GO
+CREATE PROCEDURE [dbo].[sp_authenticate_user]
+	(
+		@Email						[nvarchar](250),
+		@PasswordHash				[nvarchar](100)
+	)
+AS
+	BEGIN
+		SELECT COUNT ([SLPID]),
+				COUNT ([TeacherID])
+		FROM [SLP] INNER JOIN [Teacher]
+			ON [Teacher].[TeacherID] = [Student].[StudentID]
+			AND [Student].[StudentID] = [IEP].[StudentID]
+			AND [SLP].[SLPID] = [IEP].[SLPID]
+		WHERE [Email] = @Email
+			AND [PasswordHash] = @PasswordHash
+	END
+GO
+
+
+print '' print '*** Inserting Role Records'
+GO
+INSERT INTO [dbo].[Role]
+		([RoleID], [Description])
+	VALUES
+		('SLP', 'A person who administers speech therapy to many students at many schools.'),
+		('Teacher', 'A person who teaches many students at a single school.')
+GO
+
+print '' print '*** Inserting UserRole Records'
+GO
+INSERT INTO [dbo].[UserRole]
+		([SLPID], [TeacherID], [RoleID])
+	VALUES
+		(100000, 'SLP'),
+		(100001, 'Teacher'),
+		(100001, 'SLP'),
+		(100000, 'Teacher'),
+		(100002, 'Teacher')
+GO
+
+print '' print '*** Inserting UserRole Records'
+GO
+INSERT INTO [dbo].[UserRole]
+		([SLPID], [TeacherID], [UserID])
+	VALUES
+		(100000, 100000, 100000),
+		(100001, 'Teacher'),
+		(100001, 'SLP'),
+		(100000, 'Teacher'),
+		(100002, 'Teacher')
+GO
+
+
+/* adding foreign key references to the User table. There are
+	2 in total: SLPID, TeacherID */
+print '' print '*** Adding Foreign Key SLPID for User'
+GO
+ALTER TABLE [dbo].[User] WITH  NOCHECK
+	ADD CONSTRAINT [fk_SLPID] FOREIGN KEY([SLPID])
+	REFERENCES [dbo].[SLP]([SLPID])
+	ON UPDATE CASCADE 
+GO
+
+print '' print '*** Adding Foreign Key SLPID for User'
+GO
+ALTER TABLE [dbo].[User] WITH  NOCHECK
+	ADD CONSTRAINT [fk_TeacherID] FOREIGN KEY([TeacherID])
+	REFERENCES [dbo].[Teacher]([TeacherID])
+	ON UPDATE CASCADE 
+GO
+
+/* adding foreign key references to the EmployeeRole table. There are
+	3 in total: SLPID, TeacherID and RoleID */
+print '' print '*** Adding Foreign Key SLPID for UserRole'
+GO
+ALTER TABLE [dbo].[UserRole] WITH  NOCHECK
+	ADD CONSTRAINT [fk_SLPID] FOREIGN KEY([SLPID])
+	REFERENCES [dbo].[SLP]([SLPID])
+	ON UPDATE CASCADE 
+GO
+
+print '' print '*** Adding Foreign Key TeacherID for UserRole'
+GO
+ALTER TABLE [dbo].[UserRole] WITH  NOCHECK
+	ADD CONSTRAINT [fk_TeacherID] FOREIGN KEY([TeacherID])
+	REFERENCES [dbo].[Teacher]([TeacherID])
+	ON UPDATE CASCADE 
+GO
+
+print '' print '*** Adding Foreign Key RoleID for UserRole'
+GO
+ALTER TABLE [dbo].[UserRole] WITH NOCHECK
+	ADD CONSTRAINT [fk_RoleID] FOREIGN KEY([RoleID])
+	REFERENCES [dbo].[Role]([RoleID])
+	ON UPDATE CASCADE 
+GO
+/* End adding foreign key constraints to the EmployeeRole table. */
+
+print '' print '*** Creating Roles Table'
+GO
+
+CREATE TABLE [dbo].[Role] (
+	[RoleID]			[nvarchar](50)			NOT NULL,
+	[Description]		[nvarchar](250)			NOT NULL,
+	
+	CONSTRAINT	[pk_RoleID] PRIMARY KEY([RoleID] ASC)
+) 
+GO
+
+print '' print '*** Creating UserRole Table'
+GO
+CREATE TABLE [dbo].[UserRole](
+	[UserID]			[int]						NOT NULL,
+	[RoleID]			[nvarchar](50)				NOT NULL,
+	
+	CONSTRAINT [pk_UserID_RoleID] 
+		PRIMARY KEY([UserID] ASC, [RoleID] ASC)
+)
+GO
+
+print '' print '*** Creating User Table'
+GO
+CREATE TABLE [dbo].[User](
+	[UserID]			[int]IDENTITY(100000,1)		NOT NULL,
+	[SLPID]				[int]						NOT NULL,
+	[TeacherID]			[int]						NOT NULL,
+	CONSTRAINT [pk_UserID] 
+		PRIMARY KEY([UserID] ASC)
+)
+GO

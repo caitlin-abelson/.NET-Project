@@ -1,0 +1,61 @@
+Student Validation
+x	[StudentID]		[nvarchar](50)			  NOT NULL,
+x	[Birthday]		[date]					  NOT NULL,
+x	[TeacherID]		[nvarchar](50)			  NOT NULL,	
+x	[NCESID]		[nvarchar](20)			  NOT NULL,
+x	[Grade]			[nvarchar](15)			  NOT NULL,
+x	[FirstName]		[nvarchar](50)			  NOT NULL,
+x	[LastName]		[nvarchar](100)			  NOT NULL,
+x	[Address]		[nvarchar](30)			  NOT NULL,
+x	[City]			[nvarchar](30)			  NOT NULL,
+x	[State]			[nvarchar](2)			  NOT NULL,
+x	[ZipCode]		[nvarchar](7)			  NOT NULL,
+	
+	[IEPID]					[int]IDENTITY(100000,1)	NOT NULL,
+x	[StudentID]				[nvarchar](50) 			NOT NULL,
+	[SLPID]					[nvarchar](50)			NOT NULL,
+x	[IEPType]				[nvarchar](50)  		NOT NULL,
+x	[IEPDate]				[date]					NOT NULL DEFAULT
+	'1950-01-01',
+x	[IEPLeaderFirstName]	[nvarchar](50)			NOT NULL,
+x	[IEPLeaderLastName]		[nvarchar](50)			NOT NULL,
+x	[GoalType]				[nvarchar](50)			NOT NULL,
+x	[IEPNotes]				[nvarchar](4000)		NULL,
+	[Active]				[bit]					NOT NULL DEFAULT 1,
+	
+x	    public string StudentId { get; set; }
+x        public string SchoolName { get; set; }
+x        public string NCESId { get; set; }
+x        public DateTime Birthday { get; set; }
+x        public string TeacherID { get; set; }
+x       public string Grade { get; set; }
+x        public string FirstName { get; set; }
+x        public string LastName { get; set; }
+x        public string IEPType { get; set; }
+x        public DateTime IEPdate { get; set; }
+x        public string IEPLeaderFirstName { get; set; }
+x        public string IEPLeaderLastName { get; set; }
+x        public string IEPNotes { get; set; }
+x        public string Address { get; set; }
+x        public string City { get; set; }
+x        public string State { get; set; }
+x        public string ZipCode { get; set; }
+x        public bool Active { get; set; }
+x       public string GoalType { get; set; }
+
+
+			cmd.Parameters.AddWithValue("@IEPType", newIEP.IEPType);
+            cmd.Parameters.AddWithValue("@IEPDate", newIEP.IEPdate);
+            cmd.Parameters.AddWithValue("@IEPLeaderFirstName", newIEP.IEPLeaderFirstName);
+            cmd.Parameters.AddWithValue("@IEPLeaderLastName", newIEP.IEPLeaderLastName);
+            cmd.Parameters.AddWithValue("@GoalType", newIEP.GoalType);
+            cmd.Parameters.AddWithValue("@IEPNotes", newIEP.IEPNotes);
+            cmd.Parameters.AddWithValue("@Active", newIEP.Active);
+
+            cmd.Parameters.AddWithValue("@OldIEPType", oldIEP.IEPType);
+            cmd.Parameters.AddWithValue("@OldIEPDate", oldIEP.IEPdate);
+            cmd.Parameters.AddWithValue("@OldIEPLeaderFirstName", oldIEP.IEPLeaderFirstName);
+            cmd.Parameters.AddWithValue("@OldIEPLeaderLastName", oldIEP.IEPLeaderLastName);
+            cmd.Parameters.AddWithValue("@OldGoalType", oldIEP.GoalType);
+            cmd.Parameters.AddWithValue("@OldIEPNotes", oldIEP.IEPNotes);
+            cmd.Parameters.AddWithValue("@OldActive", oldIEP.Active);

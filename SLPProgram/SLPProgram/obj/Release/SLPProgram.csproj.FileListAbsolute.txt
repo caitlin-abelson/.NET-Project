@@ -1,0 +1,14 @@
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\obj\Release\MainWindow.g.cs
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\obj\Release\App.g.cs
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\obj\Release\SLPProgram_MarkupCompile.cache
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\obj\Release\SLPProgram_MarkupCompile.lref
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\bin\Release\SLPProgram.exe.config
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\bin\Release\SLPProgram.exe
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\bin\Release\SLPProgram.pdb
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\obj\Release\MainWindow.baml
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\obj\Release\SLPProgram.g.resources
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\obj\Release\SLPProgram.Properties.Resources.resources
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\obj\Release\SLPProgram.csproj.GenerateResource.cache
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\obj\Release\SLPProgram.csproj.CoreCompileInputs.cache
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\obj\Release\SLPProgram.exe
+F:\Fall-2018\Net II\FinalProject\SLPProgram\SLPProgram\obj\Release\SLPProgram.pdb
